@@ -201,7 +201,6 @@ public class Main extends JPanel implements ActionListener{
 	public void paint(Graphics g){
 		super.paint(g);
 		g.setColor(Color.BLACK);
-		g.drawString("Untangle the string so none of the lines are crossing", 20, 20);
 		for(int i = 0; i < vectors.size(); i++){
 			g.drawLine((int)points.get(vectors.get(i).p1).x, (int)points.get(vectors.get(i).p1).y, (int)points.get(vectors.get(i).p2).x, (int)points.get(vectors.get(i).p2).y);
 		}
