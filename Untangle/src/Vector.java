@@ -1,4 +1,3 @@
-
 public class Vector {
 	
 	double m;
@@ -13,3 +12,4 @@ public class Vector {
 		p2 = pp2;
 	}
 }
+
