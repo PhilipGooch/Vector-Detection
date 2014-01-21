@@ -1,4 +1,3 @@
-
 public class Point {
 
 	double x;
@@ -10,3 +9,4 @@ public class Point {
 		y = yy;
 	}
 }
+
